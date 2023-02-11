@@ -1,0 +1,35 @@
+.descriptionSection {
+  padding-left: 0px;
+  color: black;
+  width: 55%;
+}
+
+/* --------About section--------------- */
+.imgAbout {
+  display: grid;
+  grid-template-columns: 18% 60% 18%;
+  gap: 2%;
+  padding-left: 3rem;
+}
+
+#imgAbout img {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+}

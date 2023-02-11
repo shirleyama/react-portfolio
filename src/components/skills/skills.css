@@ -1,0 +1,76 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 120px;
+  overflow-x: visible;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills-container {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 0 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  width: 1000px;
+}
+
+.skills-container:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.skills-container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+dd {
+  margin-left: 34px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+svg {
+  margin-right: 15px;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .skills-container {
+    gap: 1rem;
+  }
+
+  .skills-container > div {
+    width: 100%;
+    padding: 2rem 3rem;
+  }
+}
