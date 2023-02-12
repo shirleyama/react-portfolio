@@ -2,14 +2,13 @@ import React from "react";
 import "./about.css";
 import MyImage from "../../assets/coding-the-future.jpg";
 
-
 const About = () => {
   return (
     <>
       <article className="container" id="about">
         <div className="row">
           <div className="col-lg-8 col-md-12 col-sm-12">
-          <div className="descriptionSection">
+            <div className="descriptionSection">
               <h2>About Me</h2>
               <h3>I'm a motivated, personable, web developer. </h3>
               <p>

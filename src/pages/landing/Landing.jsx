@@ -1,9 +1,9 @@
 import React from "react";
-import "./header.css";
+import "./landing.css";
 import CV from "../../assets/cv.pdf";
 import Myself from "../../assets/profile-shirley-thompson.png";
 
-const Header = () => {
+const Landing = () => {
   return (
     <header>
       <div className="container header__container">
@@ -33,4 +33,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Landing;
