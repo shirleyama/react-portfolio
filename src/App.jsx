@@ -1,6 +1,7 @@
 import React from "react";
-import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Landing from "./pages/landing/Landing";
 import About from "./pages/about/About";
 import Skills from "./pages/skills/Skills";
 import Projects from "./pages/projects/Projects";
@@ -11,11 +12,13 @@ const App = () => {
   return (
     <>
       <Header />
-      <Nav />
-      <About />
-      <Skills/>
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </>
   );
