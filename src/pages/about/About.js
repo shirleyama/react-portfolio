@@ -35,8 +35,8 @@ const About = () => {
 
         <div className="row">
           <div className="col-lg-6 col-md-12 col-sm-12"></div>
-          <div className="col-lg-6 col-md-12 col-sm-12">
-            <div id="contactAbout">
+          <div className="col-lg-6 col-md-12 col-sm-12 contactAboutBox">
+            <div className="contactAbout">
               <h4>Shirley Thompson</h4>
               <a href="mailto:quists@hotmail.com">
                 <b>email</b> : quists@hotmail.com

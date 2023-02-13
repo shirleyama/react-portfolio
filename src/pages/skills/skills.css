@@ -50,10 +50,11 @@ svg {
   margin-right: 15px;
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
-@media screen and (max-width: 1024px) {
-  .skills-container {
-    grid-template-columns: 1fr;
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 480px) and (max-device-width: 811px) {
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .skills-container > div {
@@ -63,14 +64,20 @@ svg {
   }
 }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 600px) {
-  .skills-container {
-    gap: 1rem;
+/*---------- Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .skills-container > div {
-    width: 100%;
-    padding: 2rem 3rem;
+  .skills-container  {
+    width: 95%;
+    padding: 2rem 2rem;
+    border-radius: 0 2rem 0 0;
   }
-}
+
+.skills-column {
+  margin: 20px 0;
+  padding: 20px 0;
+}}

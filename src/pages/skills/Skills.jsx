@@ -35,7 +35,7 @@ const Skills = () => {
                       <BsPatchCheckFill />
                       JavaScript
                     </dt>
-                    <dd>Experienced</dd>
+                    <dd>Intermediate</dd>
                     <dt>
                       <BsPatchCheckFill />
                       Git
@@ -59,12 +59,12 @@ const Skills = () => {
                       <BsPatchCheckFill />
                       jQuery
                     </dt>
-                    <dd>Experienced</dd>
+                    <dd>Intermediate</dd>
                     <dt>
                       <BsPatchCheckFill />
                       Node.js
                     </dt>
-                    <dd>Experienced</dd>
+                    <dd>Intermediate</dd>
                   </dl>
                 </div>
                 <div className="skills-column">
@@ -73,7 +73,7 @@ const Skills = () => {
                       <BsPatchCheckFill />
                       React
                     </dt>
-                    <dd>Experienced</dd>
+                    <dd>Intermediate</dd>
                     <dt>
                       <BsPatchCheckFill />
                       Photoshop
@@ -83,7 +83,7 @@ const Skills = () => {
                       <BsPatchCheckFill />
                       Illustrator
                     </dt>
-                    <dd>Experienced</dd>
+                    <dd>Intermediate</dd>
                     <dt>
                       <BsPatchCheckFill />
                       Wordpress
@@ -95,22 +95,22 @@ const Skills = () => {
                   <dl>
                     <dt>
                       <BsPatchCheckFill />
-                      React
+                     Wordpress
                     </dt>
                     <dd>Experienced</dd>
                     <dt>
                       <BsPatchCheckFill />
-                      Photoshop
+                      Joomla
                     </dt>
                     <dd>Experienced</dd>
                     <dt>
                       <BsPatchCheckFill />
-                      Illustrator
+                      HTML
                     </dt>
                     <dd>Experienced</dd>
                     <dt>
                       <BsPatchCheckFill />
-                      Wordpress
+                     CSS
                     </dt>
                     <dd>Experienced</dd>
                   </dl>

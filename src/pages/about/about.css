@@ -1,35 +1,48 @@
-.descriptionSection {
-  padding-left: 0px;
-  color: black;
-  width: 55%;
-}
-
-/* --------About section--------------- */
-.imgAbout {
-  display: grid;
-  grid-template-columns: 18% 60% 18%;
-  gap: 2%;
-  padding-left: 3rem;
-}
-
 #imgAbout img {
   display: flex;
   justify-content: space-around;
-  width: 70%;
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.areaAbout {
+  display: flex;
+  justify-content: center;
+}
+.contactAboutBox {
+  display: flex;
+  justify-content: center;
+  padding-left: 150px;
 }
 
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
-@media screen and (max-width: 1024px) {
-  .about__container {
-    grid-template-columns: 1fr;
-    gap: 0;
+.contactAbout {
+  cursor: pointer;
+  position: relative;
+  top: 0px;
+  background: #ba60db;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 480px) and (max-width: 811px) {
+}
+
+/*---------- Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .contactAboutBox {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
   }
-}
+  #contactAbout {
+    width: 100%;
+  }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 600px) {
-  .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
+  #imgAbout img {
+    margin-right: -30px !important;
   }
 }

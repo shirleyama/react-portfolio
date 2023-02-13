@@ -1,0 +1,80 @@
+nav {
+  position: fixed;
+  top: 9rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: rgba(154, 44, 195, 0.8);
+  padding: 1.2rem;
+  z-index: 2;
+  transform: translateX(-50%);
+  border-radius: 0rem 2rem 0rem 2rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.7rem;
+  border-radius: 0rem;
+  display: flex;
+  color: var(--color-white);
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--color-primary);
+}
+
+nav a.active {
+  /**/
+  background: var(--color-primary);
+  color: var(--color-bg);
+  border-radius: 0rem 1rem 0rem 1rem;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 480px) and (max-width: 811px) {
+  /*-------iPad Nav styles -------------*/
+  nav {
+    top: 0px;
+    right: 10px;
+    max-width: 100%;
+    height: 100px;
+    overflow: hidden;
+    padding: 20px;
+    z-index: 300;
+    font-size: 1.1rem;
+    flex-direction: row;
+  }
+}
+
+/*---------- Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header {
+    height: 80vh;
+    padding-top: 4rem;
+  }
+  nav a.active {
+    /**/
+    background: var(--color-primary);
+    color: var(--color-bg);
+    border-radius: 1rem;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav {
+    top: 0;
+    right: -185px;
+    max-width: 100%;
+    border-radius: 0rem 0 1rem 1rem;
+    flex-direction: row;
+  }
+  nav a {
+    padding: 0 15px 0 0;
+    justify-content: space-around;
+  }
+}
