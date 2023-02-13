@@ -23,7 +23,7 @@ const Landing = () => {
               Download CV
             </a>
             <a href="#contact" className="btn btn-primary">
-              Let's Talk
+              Contact Me
             </a>
           </div>
         </div>

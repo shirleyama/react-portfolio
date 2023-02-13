@@ -1,29 +1,27 @@
 import React from "react";
 import "./footer.css";
-
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+        <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="#about">About</a>
+        <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <a href="#experience">Skills</a>
+        <NavLink to="/skills">Skills</NavLink>
         </li>
         <li>
-          <a href="#portfolio">Projects</a>
+        <NavLink to="/projects">Projects</NavLink>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+        <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
-
-
 
       <div className="footer-copyright">
         <small>&copy; ShirleyAma. All rights reserved.</small>
@@ -33,3 +31,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
