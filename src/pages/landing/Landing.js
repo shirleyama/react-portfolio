@@ -1,6 +1,6 @@
 import React from "react";
 import "./landing.css";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/CV-Shirley-Thompson.pdf";
 import Myself from "../../assets/profile-shirley-thompson.png";
 
 const Landing = () => {
@@ -8,12 +8,12 @@ const Landing = () => {
     <header>
       <div className="container header__container">
         <div className="jumbotron" id="home">
-        <h1>
-              Hi i'm <br />
-              Shirley
-              <br />
-              Thompson!
-            </h1>
+          <h1>
+            Hi i'm <br />
+            Shirley
+            <br />
+            Thompson!
+          </h1>
           <div className="jumboPic">
             <img src={Myself} alt="Shirley" />
           </div>
@@ -27,7 +27,6 @@ const Landing = () => {
             </a>
           </div>
         </div>
-
       </div>
     </header>
   );
