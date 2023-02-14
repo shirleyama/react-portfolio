@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import CV from "../../assets/CV-Shirley-Thompson.pdf";
 import { useState } from "react";
 
 const styles = {
@@ -86,11 +87,20 @@ function Contact() {
               </a>
             </p>
             <p>
-              <a style={styles.success} href="tel:07985643395">
-                <b>Phone </b>: 07985 643 395
-              </a>{" "}
+              <a style={styles.success} href="https://github.com/shirleyama">
+                <b>Github </b>: shirleyama
+              </a>
             </p>
-
+            <p>
+              <a style={styles.success} href="www.linkedin.com/in/shirleyama">
+                <b>LinkedIn </b>shirleyama
+              </a>
+            </p>
+            <p>
+              <a href={CV} download className="btn">
+                Download CV
+              </a>
+            </p>
             {/* <p>Name: {formData.name}</p>
             <p>Email: {formData.email}</p>
             <p>Message: {formData.message}</p> */}
@@ -121,7 +131,7 @@ function Contact() {
               onChange={handleChange}
               placeholder="Enter your message..."
               cols="30"
-              rows="10"
+              rows="8"
             ></textarea>
             <button className="btn c-btn btn-primary">Submit</button>
           </form>
