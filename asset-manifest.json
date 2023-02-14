@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.cd70d535.css",
-    "main.js": "/react-portfolio/static/js/main.37f14e13.js",
-    "static/media/profile-shirley-thompson.png": "/react-portfolio/static/media/profile-shirley-thompson.9bcc3179c143d4e4575a.png",
-    "static/media/CV-Shirley-Thompson.pdf": "/react-portfolio/static/media/CV-Shirley-Thompson.8fa9f123b65be18e6fb3.pdf",
-    "static/media/project-5-yedibeba.jpg": "/react-portfolio/static/media/project-5-yedibeba.3cd0c0d9ac12b0be1cfc.jpg",
-    "static/media/project-4-find-my-artist.jpg": "/react-portfolio/static/media/project-4-find-my-artist.b116a61f4e7c51761f6d.jpg",
-    "static/media/project-6-digital-stepping-stones.jpg": "/react-portfolio/static/media/project-6-digital-stepping-stones.9c61926f859187f45a51.jpg",
-    "static/media/project-2-readme-generator.jpg": "/react-portfolio/static/media/project-2-readme-generator.68f5016fc24776906130.jpg",
-    "static/media/coding-the-future.jpg": "/react-portfolio/static/media/coding-the-future.81bd398c77b8e8fe633b.jpg",
-    "static/media/project-1-workday-scheduler.jpg": "/react-portfolio/static/media/project-1-workday-scheduler.06f656e1ad7e3ab319ab.jpg",
-    "static/media/project-3-team-generator.jpg": "/react-portfolio/static/media/project-3-team-generator.6962e4d4d863e1a4e5d0.jpg",
-    "index.html": "/react-portfolio/index.html",
-    "main.cd70d535.css.map": "/react-portfolio/static/css/main.cd70d535.css.map",
-    "main.37f14e13.js.map": "/react-portfolio/static/js/main.37f14e13.js.map"
+    "main.css": "/static/css/main.cd70d535.css",
+    "main.js": "/static/js/main.e51abe31.js",
+    "static/media/profile-shirley-thompson.png": "/static/media/profile-shirley-thompson.9bcc3179c143d4e4575a.png",
+    "static/media/CV-Shirley-Thompson.pdf": "/static/media/CV-Shirley-Thompson.8fa9f123b65be18e6fb3.pdf",
+    "static/media/project-5-yedibeba.jpg": "/static/media/project-5-yedibeba.3cd0c0d9ac12b0be1cfc.jpg",
+    "static/media/project-4-find-my-artist.jpg": "/static/media/project-4-find-my-artist.b116a61f4e7c51761f6d.jpg",
+    "static/media/project-6-digital-stepping-stones.jpg": "/static/media/project-6-digital-stepping-stones.9c61926f859187f45a51.jpg",
+    "static/media/project-2-readme-generator.jpg": "/static/media/project-2-readme-generator.68f5016fc24776906130.jpg",
+    "static/media/coding-the-future.jpg": "/static/media/coding-the-future.81bd398c77b8e8fe633b.jpg",
+    "static/media/project-1-workday-scheduler.jpg": "/static/media/project-1-workday-scheduler.06f656e1ad7e3ab319ab.jpg",
+    "static/media/project-3-team-generator.jpg": "/static/media/project-3-team-generator.6962e4d4d863e1a4e5d0.jpg",
+    "index.html": "/index.html",
+    "main.cd70d535.css.map": "/static/css/main.cd70d535.css.map",
+    "main.e51abe31.js.map": "/static/js/main.e51abe31.js.map"
   },
   "entrypoints": [
     "static/css/main.cd70d535.css",
-    "static/js/main.37f14e13.js"
+    "static/js/main.e51abe31.js"
   ]
 }
