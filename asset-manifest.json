@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.cd70d535.css",
-    "main.js": "/react-portfolio/static/js/main.9dad87dd.js",
+    "main.js": "/react-portfolio/static/js/main.37f14e13.js",
     "static/media/profile-shirley-thompson.png": "/react-portfolio/static/media/profile-shirley-thompson.9bcc3179c143d4e4575a.png",
     "static/media/CV-Shirley-Thompson.pdf": "/react-portfolio/static/media/CV-Shirley-Thompson.8fa9f123b65be18e6fb3.pdf",
     "static/media/project-5-yedibeba.jpg": "/react-portfolio/static/media/project-5-yedibeba.3cd0c0d9ac12b0be1cfc.jpg",
@@ -13,10 +13,10 @@
     "static/media/project-3-team-generator.jpg": "/react-portfolio/static/media/project-3-team-generator.6962e4d4d863e1a4e5d0.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.cd70d535.css.map": "/react-portfolio/static/css/main.cd70d535.css.map",
-    "main.9dad87dd.js.map": "/react-portfolio/static/js/main.9dad87dd.js.map"
+    "main.37f14e13.js.map": "/react-portfolio/static/js/main.37f14e13.js.map"
   },
   "entrypoints": [
     "static/css/main.cd70d535.css",
-    "static/js/main.9dad87dd.js"
+    "static/js/main.37f14e13.js"
   ]
 }
