@@ -118,12 +118,12 @@ img {
 /* ------Main section styles-----------*/
 
 .container {
-  margin-left: 50px !important;
+  /* margin-left: 50px !important; */
   margin-top: 40px;
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width: 480px) and (max-width: 811px) {
+@media screen and (max-width: 1024px) {
   h1 {
     font-size: 80px !important;
     line-height: 85px !important;
@@ -146,7 +146,7 @@ img {
 }
 
 /*---------- Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   body {
     font-family: "Roboto", sans-serif;
     color: var(--color-white);
@@ -179,10 +179,11 @@ img {
   }
 
   /* ---------Mobile Main section styles ------*/
-  .container {
+  /* .container {
     margin-left: 6px !important;
     margin-top: 0 !important;
-  }
+  
+} */
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
@@ -192,7 +193,7 @@ img {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
 }
 
