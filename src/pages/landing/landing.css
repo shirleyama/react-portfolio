@@ -25,6 +25,10 @@
   text-align: left;
 }
 
+.jumbotron h2 {
+  padding-top: 25px;
+}
+
 /* =============== CTA ============== */
 .cta {
   margin-top: 0.5rem;
@@ -35,7 +39,6 @@
 
 /* iPads (portrait and landscape) ----------- */
 @media screen and (max-width: 1024px) {
-
   .jumbotron {
     height: 70vh;
   }
@@ -67,8 +70,8 @@
     height: 70vh;
     margin: 0rem;
   }
-  .jumboPic img{
-    width:480px;
+  .jumboPic img {
+    width: 480px;
     border-radius: 0rem;
   }
   /* cta */
